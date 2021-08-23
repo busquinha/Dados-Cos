@@ -1,0 +1,544 @@
+Hooks.on('diceSoNiceReady', (dice3d) => {
+dice3d.addSystem({ id: "Sol", name: "🦇 Sol (Branco)" }, false);
+
+dice3d.addDicePreset({
+    type: "d2",
+    labels: ['modules/Dados-Cos/faces/sol21.png', 'modules/Dados-Cos/faces/sol22.png'],
+    bumpMaps:['modules/Dados-Cos/sombras/sol21.png', 'modules/Dados-Cos/sombras/sol22.png'],
+    system: "Sol"
+});
+    dice3d.addDicePreset({
+        type: "d4",
+        labels: ['1', '2', '3', 'modules/Dados-Cos/faces/sol2.png'],
+        system: "Sol"
+        });
+    dice3d.addDicePreset({
+        type: "d6",
+        labels: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/faces/sol3.png'],
+        bumpMaps: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/sombras/sol3.png'],
+        system: "Sol"
+        });
+
+    dice3d.addDicePreset({
+        type: "d8",
+        labels: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/faces/sol.png'],
+        bumpMaps: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/sombras/sol.png'],
+        system: "Sol"
+        });
+    dice3d.addDicePreset({
+        type: "d10",
+        labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/faces/sol.png'],
+        bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/sombras/sol.png'],
+        system: "Sol"
+    });
+    dice3d.addDicePreset({
+        type: "d12",
+        labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'modules/Dados-Cos/faces/sol.png'],
+        bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9',  '10', '11', 'modules/Dados-Cos/sombras/sol.png'],
+        system: "Sol"
+    });
+    dice3d.addDicePreset({
+        type: "d20",
+        labels: ['F', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/faces/galo.png', '14', '15', '16', '17', '18', '19', 
+        'modules/Dados-Cos/faces/sol.png'],
+        bumpMaps: ['F', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/sombras/galo.png', '14', '15', '16', '17', '18', '19', 'modules/Dados-Cos/sombras/sol.png'],
+        system: "Sol"
+    });
+    dice3d.addDicePreset({
+        type: "d100",
+        labels: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/faces/sol.png'],
+        bumpMaps: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/sombras/sol.png'],
+        system: "Sol"
+    });
+    dice3d.addDicePreset({
+        type: "dc",
+        labels: ['modules/Dados-Cos/Faces/coroa.png', 'modules/Dados-Cos/faces/cara.png'],
+        bumpMaps:['modules/Dados-Cos/sombras/coroa.png', 'modules/Dados-Cos/sombras/cara.png'],
+        system: "Sol"
+    });
+});
+Hooks.on('diceSoNiceReady', (dice3d) => {
+    dice3d.addSystem({ id: "Sol2", name: "🦇 Sol (Preto)" }, false);
+    
+    dice3d.addDicePreset({
+        type: "d2",
+        labels: ['modules/Dados-Cos/faces-black/sol21.png', 'modules/Dados-Cos/faces-black/sol22.png'],
+        bumpMaps:['modules/Dados-Cos/sombras/sol21.png', 'modules/Dados-Cos/sombras/sol22.png'],
+        system: "Sol2"
+    });
+        dice3d.addDicePreset({
+            type: "d4",
+            labels: ['1', '2', '3', 'modules/Dados-Cos/faces-black/sol2.png'],
+            system: "Sol2"
+            });
+        dice3d.addDicePreset({
+            type: "d6",
+            labels: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/faces-black/sol3.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/sombras/sol3.png'],
+            system: "Sol2"
+            });
+    
+        dice3d.addDicePreset({
+            type: "d8",
+            labels: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/faces-black/sol.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/sombras/sol.png'],
+            system: "Sol2"
+            });
+        dice3d.addDicePreset({
+            type: "d10",
+            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/faces-black/sol.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/sombras/sol.png'],
+            system: "Sol2"
+        });
+        dice3d.addDicePreset({
+            type: "d12",
+            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'modules/Dados-Cos/faces-black/sol.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9',  '10', '11', 'modules/Dados-Cos/sombras/sol.png'],
+            system: "Sol2"
+        });
+        dice3d.addDicePreset({
+            type: "d20",
+            labels: ['F', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/faces-black/galo.png', '14', '15', '16', '17', '18', '19', 
+            'modules/Dados-Cos/faces-black/sol.png'],
+            bumpMaps: ['F', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/sombras/galo.png', '14', '15', '16', '17', '18', '19', 'modules/Dados-Cos/sombras/sol.png'],
+            system: "Sol2"
+        });
+        dice3d.addDicePreset({
+            type: "d100",
+            labels: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/faces-black/sol.png'],
+            bumpMaps: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/sombras/sol.png'],
+            system: "Sol2"
+        });
+        dice3d.addDicePreset({
+            type: "dc",
+            labels: ['modules/Dados-Cos/Faces/coroa.png', 'modules/Dados-Cos/faces/cara.png'],
+            bumpMaps:['modules/Dados-Cos/sombras/coroa.png', 'modules/Dados-Cos/sombras/cara.png'],
+            system: "Sol2"
+        });
+});
+Hooks.on('diceSoNiceReady', (dice3d) => {
+        dice3d.addSystem({ id: "strahd", name: "🦇 Strahd (Branco)" }, false);
+        
+            dice3d.addDicePreset({
+                type: "d4",
+                labels: ['1', '2', '3', 'modules/Dados-Cos/faces/strahd2.png'],
+                system: "strahd"
+                });
+            dice3d.addDicePreset({
+                type: "d6",
+                labels: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/faces/strahd3.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/sombras/strahd3.png'],
+                system: "strahd"
+                });
+        
+            dice3d.addDicePreset({
+                type: "d8",
+                labels: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/faces/strahd.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/sombras/strahd.png'],
+                system: "strahd"
+                });
+            dice3d.addDicePreset({
+                type: "d10",
+                labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/faces/strahd.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/sombras/strahd.png'],
+                system: "strahd"
+            });
+            dice3d.addDicePreset({
+                type: "d12",
+                labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'modules/Dados-Cos/faces/strahd.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9',  '10', '11', 'modules/Dados-Cos/sombras/strahd.png'],
+                system: "strahd"
+            });
+            dice3d.addDicePreset({
+                type: "d20",
+                labels: ['😭', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/faces/galo.png', '14', '15', '16', '17', '18', '19', 
+                'modules/Dados-Cos/faces/strahd.png'],
+                bumpMaps: ['F', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/sombras/galo.png', '14', '15', '16', '17', '18', '19', 'modules/Dados-Cos/sombras/strahd.png'],
+                system: "strahd"
+            });
+            dice3d.addDicePreset({
+                type: "d100",
+                labels: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/faces/strahd.png'],
+                bumpMaps: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/sombras/strahd.png'],
+                system: "strahd"
+            });
+            dice3d.addDicePreset({
+                type: "dc",
+                labels: ['modules/Dados-Cos/Faces/coroa.png', 'modules/Dados-Cos/faces/cara.png'],
+                bumpMaps:['modules/Dados-Cos/sombras/coroa.png', 'modules/Dados-Cos/sombras/cara.png'],
+                system: "strahd"
+            });
+});
+Hooks.on('diceSoNiceReady', (dice3d) => {
+dice3d.addSystem({ id: "strahd2", name: "🦇 Strahd (Preto)" }, false);
+
+                dice3d.addDicePreset({
+                    type: "d4",
+                    labels: ['1', '2', '3', 'modules/Dados-Cos/faces-black/strahd2.png'],
+                    system: "strahd2"
+                    });
+                dice3d.addDicePreset({
+                    type: "d6",
+                    labels: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/faces-black/strahd3.png'],
+                    bumpMaps: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/sombras/strahd3.png'],
+                    system: "strahd2"
+                    });
+            
+                dice3d.addDicePreset({
+                    type: "d8",
+                    labels: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/faces-black/strahd.png'],
+                    bumpMaps: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/sombras/strahd.png'],
+                    system: "strahd2"
+                    });
+                dice3d.addDicePreset({
+                    type: "d10",
+                    labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/faces-black/strahd.png'],
+                    bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/sombras/strahd.png'],
+                    system: "strahd2"
+                });
+                dice3d.addDicePreset({
+                    type: "d12",
+                    labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'modules/Dados-Cos/faces-black/strahd.png'],
+                    bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9',  '10', '11', 'modules/Dados-Cos/sombras/strahd.png'],
+                    system: "strahd2"
+                });
+                dice3d.addDicePreset({
+                    type: "d20",
+                    labels: ['😭', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/faces-black/galo.png', '14', '15', '16', '17', '18', '19', 
+                    'modules/Dados-Cos/faces-black/strahd.png'],
+                    bumpMaps: ['F', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/sombras/galo.png', '14', '15', '16', '17', '18', '19', 'modules/Dados-Cos/sombras/strahd.png'],
+                    system: "strahd2"
+                });
+                dice3d.addDicePreset({
+                    type: "d100",
+                    labels: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/faces-black/strahd.png'],
+                    bumpMaps: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/sombras/strahd.png'],
+                    system: "strahd2"
+                });
+                dice3d.addDicePreset({
+                    type: "dc",
+                    labels: ['modules/Dados-Cos/Faces/coroa.png', 'modules/Dados-Cos/faces/cara.png'],
+                    bumpMaps:['modules/Dados-Cos/sombras/coroa.png', 'modules/Dados-Cos/sombras/cara.png'],
+                    system: "strahd2"
+                });
+});
+Hooks.on('diceSoNiceReady', (dice3d) => {
+    
+dice3d.addSystem({ id: "sangue", name: "🦇 Sangue" }, false);
+    
+        dice3d.addDicePreset({
+            type: "d4",
+            labels: ['1', '2', '3', 'modules/Dados-Cos/faces/sangue2.png'],
+            system: "sangue"
+            });
+        dice3d.addDicePreset({
+            type: "d6",
+            labels: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/faces/sangue3.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/sombras/sangue3.png'],
+            system: "sangue"
+            });
+    
+        dice3d.addDicePreset({
+            type: "d8",
+            labels: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/faces/sangue.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/sombras/sangue.png'],
+            system: "sangue"
+            });
+        dice3d.addDicePreset({
+            type: "d10",
+            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/faces/sangue.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/sombras/sangue.png'],
+            system: "sangue"
+        });
+        dice3d.addDicePreset({
+            type: "d12",
+            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'modules/Dados-Cos/faces/sangue.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9',  '10', '11', 'modules/Dados-Cos/sombras/sangue.png'],
+            system: "sangue"
+        });
+        dice3d.addDicePreset({
+            type: "d20",
+            labels: ['F', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', 
+            'modules/Dados-Cos/faces/sangue.png'],
+            bumpMaps: ['F', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', 'modules/Dados-Cos/sombras/sangue.png'],
+            system: "sangue"
+        });
+        dice3d.addDicePreset({
+            type: "d100",
+            labels: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/faces/sangue.png'],
+            bumpMaps: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/sombras/sangue.png'],
+            system: "sangue"
+        });
+        dice3d.addDicePreset({
+            type: "dc",
+            labels: ['modules/Dados-Cos/Faces/coroa.png', 'modules/Dados-Cos/faces/cara.png'],
+            bumpMaps:['modules/Dados-Cos/sombras/coroa.png', 'modules/Dados-Cos/sombras/cara.png'],
+            system: "sangue"
+        });
+});
+Hooks.on('diceSoNiceReady', (dice3d) => {
+    dice3d.addSystem({ id: "lion", name: "🦇 Leão (Branco)" }, false);
+    
+        dice3d.addDicePreset({
+            type: "d4",
+            labels: ['1', '2', '3', 'modules/Dados-Cos/faces/lion2.png'],
+            system: "lion"
+            });
+        dice3d.addDicePreset({
+            type: "d6",
+            labels: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/faces/lion3.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/sombras/lion3.png'],
+            system: "lion"
+            });
+    
+        dice3d.addDicePreset({
+            type: "d8",
+            labels: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/faces/lion.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/sombras/lion.png'],
+            system: "lion"
+            });
+        dice3d.addDicePreset({
+            type: "d10",
+            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/faces/lion.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/sombras/lion.png'],
+            system: "lion"
+        });
+        dice3d.addDicePreset({
+            type: "d12",
+            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'modules/Dados-Cos/faces/lion.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9',  '10', '11', 'modules/Dados-Cos/sombras/lion.png'],
+            system: "lion"
+        });
+        dice3d.addDicePreset({
+            type: "d20",
+            labels: ['🦁', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/faces/galo.png', '14', '15', '16', '17', '18', '19', 
+            'modules/Dados-Cos/faces/lion.png'],
+            bumpMaps: ['🦁', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/sombras/galo.png', '14', '15', '16', '17', '18', '19', 'modules/Dados-Cos/sombras/lion.png'],
+            system: "lion"
+        });
+        dice3d.addDicePreset({
+            type: "d100",
+            labels: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/faces/lion.png'],
+            bumpMaps: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/sombras/lion.png'],
+            system: "lion"
+        });
+        dice3d.addDicePreset({
+            type: "dc",
+            labels: ['modules/Dados-Cos/Faces/coroa.png', 'modules/Dados-Cos/faces/cara.png'],
+            bumpMaps:['modules/Dados-Cos/sombras/coroa.png', 'modules/Dados-Cos/sombras/cara.png'],
+            system: "lion"
+        });
+});
+Hooks.on('diceSoNiceReady', (dice3d) => {
+        dice3d.addSystem({ id: "lion2", name: "🦇 Leão (Preto)" }, false);
+
+            dice3d.addDicePreset({
+                type: "d4",
+                labels: ['1', '2', '3', 'modules/Dados-Cos/faces-black/lion2.png'],
+                system: "lion2"
+                });
+            dice3d.addDicePreset({
+                type: "d6",
+                labels: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/faces-black/lion3.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/sombras/lion3.png'],
+                system: "lion2"
+                });
+        
+            dice3d.addDicePreset({
+                type: "d8",
+                labels: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/faces-black/lion.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/sombras/lion.png'],
+                system: "lion2"
+                });
+            dice3d.addDicePreset({
+                type: "d10",
+                labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/faces-black/lion.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/sombras/lion.png'],
+                system: "lion2"
+            });
+            dice3d.addDicePreset({
+                type: "d12",
+                labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'modules/Dados-Cos/faces-black/lion.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9',  '10', '11', 'modules/Dados-Cos/sombras/lion.png'],
+                system: "lion2"
+            });
+            dice3d.addDicePreset({
+                type: "d20",
+                labels: ['🦁', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/faces-black/galo.png', '14', '15', '16', '17', '18', '19', 
+                'modules/Dados-Cos/faces-black/lion.png'],
+                bumpMaps: ['🦁', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/sombras/galo.png', '14', '15', '16', '17', '18', '19', 'modules/Dados-Cos/sombras/lion.png'],
+                system: "lion2"
+            });
+            dice3d.addDicePreset({
+                type: "d100",
+                labels: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/faces-black/lion.png'],
+                bumpMaps: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/sombras/lion.png'],
+                system: "lion2"
+            });
+            dice3d.addDicePreset({
+                type: "dc",
+                labels: ['modules/Dados-Cos/Faces/coroa.png', 'modules/Dados-Cos/faces/cara.png'],
+                bumpMaps:['modules/Dados-Cos/sombras/coroa.png', 'modules/Dados-Cos/sombras/cara.png'],
+                system: "lion2"
+            });
+});
+Hooks.on('diceSoNiceReady', (dice3d) => {
+    dice3d.addSystem({ id: "lua", name: "🦇 Lua (Branco)" }, false);
+    
+        dice3d.addDicePreset({
+            type: "d4",
+            labels: ['1', '2', '3', 'modules/Dados-Cos/faces/lua2.png'],
+            system: "lua"
+            });
+        dice3d.addDicePreset({
+            type: "d6",
+            labels: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/faces/lua3.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/sombras/lua3.png'],
+            system: "lua"
+            });
+    
+        dice3d.addDicePreset({
+            type: "d8",
+            labels: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/faces/lua.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/sombras/lua.png'],
+            system: "lua"
+            });
+        dice3d.addDicePreset({
+            type: "d10",
+            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/faces/lua.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/sombras/lua.png'],
+            system: "lua"
+        });
+        dice3d.addDicePreset({
+            type: "d12",
+            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'modules/Dados-Cos/faces/lua4.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9',  '10', '11', 'modules/Dados-Cos/sombras/lua4.png'],
+            system: "lua"
+        });
+        dice3d.addDicePreset({
+            type: "d20",
+            labels: ['💀', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/faces/galo.png', '14', '15', '16', '17', '18', '19', 
+            'modules/Dados-Cos/faces/lua.png'],
+            bumpMaps: ['💀', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/sombras/galo.png', '14', '15', '16', '17', '18', '19', 'modules/Dados-Cos/sombras/lua.png'],
+            system: "lua"
+        });
+        dice3d.addDicePreset({
+            type: "d100",
+            labels: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/faces/lua.png'],
+            bumpMaps: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/sombras/lua.png'],
+            system: "lua"
+        });
+        dice3d.addDicePreset({
+            type: "dc",
+            labels: ['modules/Dados-Cos/Faces/coroa.png', 'modules/Dados-Cos/faces/cara.png'],
+            bumpMaps:['modules/Dados-Cos/sombras/coroa.png', 'modules/Dados-Cos/sombras/cara.png'],
+            system: "lua"
+        });
+});
+Hooks.on('diceSoNiceReady', (dice3d) => {
+        dice3d.addSystem({ id: "lua2", name: "🦇 Lua (Preto)" }, false);
+
+            dice3d.addDicePreset({
+                type: "d4",
+                labels: ['1', '2', '3', 'modules/Dados-Cos/faces-black/lua2.png'],
+                system: "lua2"
+                });
+            dice3d.addDicePreset({
+                type: "d6",
+                labels: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/faces-black/lua3.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/sombras/lua3.png'],
+                system: "lua2"
+                });
+        
+            dice3d.addDicePreset({
+                type: "d8",
+                labels: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/faces-black/lua.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/sombras/lua.png'],
+                system: "lua2"
+                });
+            dice3d.addDicePreset({
+                type: "d10",
+                labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/faces-black/lua.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/sombras/lua.png'],
+                system: "lua2"
+            });
+            dice3d.addDicePreset({
+                type: "d12",
+                labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'modules/Dados-Cos/faces-black/lua4.png'],
+                bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9',  '10', '11', 'modules/Dados-Cos/sombras/lua4.png'],
+                system: "lua2"
+            });
+            dice3d.addDicePreset({
+                type: "d20",
+                labels: ['💀', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/faces-black/galo.png', '14', '15', '16', '17', '18', '19', 
+                'modules/Dados-Cos/faces-black/lua.png'],
+                bumpMaps: ['💀', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/sombras/galo.png', '14', '15', '16', '17', '18', '19', 'modules/Dados-Cos/sombras/lua.png'],
+                system: "lua2"
+            });
+            dice3d.addDicePreset({
+                type: "d100",
+                labels: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/faces-black/lua.png'],
+                bumpMaps: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/sombras/lua.png'],
+                system: "lua2"
+            });
+            dice3d.addDicePreset({
+                type: "dc",
+                labels: ['modules/Dados-Cos/Faces/coroa.png', 'modules/Dados-Cos/faces/cara.png'],
+                bumpMaps:['modules/Dados-Cos/sombras/coroa.png', 'modules/Dados-Cos/sombras/cara.png'],
+                system: "lua2"
+            });
+});
+Hooks.on('diceSoNiceReady', (dice3d) => {
+        
+    dice3d.addSystem({ id: "lua3", name: "🦇 Lua (Cor)" }, false);
+    
+        dice3d.addDicePreset({
+            type: "d4",
+            labels: ['1', '2', '3', 'modules/Dados-Cos/faces-color/lua2.png'],
+            system: "lua3"
+            });
+        dice3d.addDicePreset({
+            type: "d6",
+            labels: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/faces-color/lua3.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', 'modules/Dados-Cos/sombras/lua3.png'],
+            system: "lua3"
+            });
+    
+        dice3d.addDicePreset({
+            type: "d8",
+            labels: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/faces-color/lua.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', 'modules/Dados-Cos/sombras/lua.png'],
+            system: "lua3"
+            });
+        dice3d.addDicePreset({
+            type: "d10",
+            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/faces-color/lua.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'modules/Dados-Cos/sombras/lua.png'],
+            system: "lua3"
+        });
+        dice3d.addDicePreset({
+            type: "d12",
+            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', 'modules/Dados-Cos/faces-color/lua4.png'],
+            bumpMaps: ['1', '2', '3', '4', '5', '6', '7', '8', '9',  '10', '11', 'modules/Dados-Cos/sombras/lua4.png'],
+            system: "lua3"
+        });
+        dice3d.addDicePreset({
+            type: "d20",
+            labels: ['💀', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/faces-color/galo.png', '14', '15', '16', '17', '18', '19', 
+            'modules/Dados-Cos/faces-color/lua.png'],
+            bumpMaps: ['💀', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'modules/Dados-Cos/sombras/galo.png', '14', '15', '16', '17', '18', '19', 'modules/Dados-Cos/sombras/lua.png'],
+            system: "lua3"
+        });
+        dice3d.addDicePreset({
+            type: "d100",
+            labels: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/faces-color/lua.png'],
+            bumpMaps: ['10', '20', '30', '40', '50', '60', '70', '80', '90', 'modules/Dados-Cos/sombras/lua.png'],
+            system: "lua3"
+        });
+        dice3d.addDicePreset({
+            type: "dc",
+            labels: ['modules/Dados-Cos/Faces/coroa.png', 'modules/Dados-Cos/faces/cara.png'],
+            bumpMaps:['modules/Dados-Cos/sombras/coroa.png', 'modules/Dados-Cos/sombras/cara.png'],
+            system: "lua3"
+        });
+});

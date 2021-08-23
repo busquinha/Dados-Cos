@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: bold;    
+    src: local('Josefin Sans'), local('Josefin-Sans'),
+    url('../dados-cos/fonts/josefinsans.woff2') format('woff2'),;
+}

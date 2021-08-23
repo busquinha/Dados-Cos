@@ -1,0 +1,15 @@
+{
+    "name": "Dados-Cos",
+    "title": "Dados para Curse of Strahd",
+    "description": "Dados para Curse of Strahd...",
+    "author": "Busca",
+    "version": "1.3.0",
+    "minimumCoreVersion": "0.6.0",
+    "styles": [
+        "dicestyle.css"
+    ],
+    "compatibleCoreVersion": "0.8.9",
+    "scripts": [
+        "scripts/dados.json"
+    ]
+}
