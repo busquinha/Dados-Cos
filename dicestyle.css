@@ -3,5 +3,14 @@
     font-style: normal;
     font-weight: bold;    
     src: local('Josefin Sans'), local('Josefin-Sans'),
-    url('../dados-cos/fonts/josefinsans.woff2') format('woff2');
-}
+    url('../dados-cos/fonts/josefinsans.woff2') format('woff2'),
+    url('../dados-cos/fonts/josefinsans.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Comic Sans MS';
+    url('../dados-cos/fonts/ComicSansMS.woff2') format('woff2');
+  }
+  @font-face {
+  font-family: 'Tormenta20';
+  src: url('../dados-cos/fonts/Tormenta.woff2') format('woff2'), url('../dados-cos/fonts/Tormenta.woff') format('woff');
+  }
